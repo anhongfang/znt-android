@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>znt-app</name>
+	<name>zntapp</name>
 	<comment>Create By HBuilder</comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1444788562251</id>
+			<id>1444790389558</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
