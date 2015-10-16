@@ -2,11 +2,7 @@
     font-size: 18px;
     background: none;
 }
-.login-close{
-    font-size: 40px;
-    position: absolute;
-    left: 4px;
-}
+
 .login-top{
     height: 160px;
     /*background: #12a7f4;*/
