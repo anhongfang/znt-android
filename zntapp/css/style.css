@@ -1,5 +1,7 @@
 /*=======自定义公共类========*/
+ul{padding: 0;margin: 0;list-style: none;}
 /*======颜色参数======*/
+    .bg-white{background: #ffffff}
    .bg-gray{background: #f6f6f6}
    .app-blue{color: #12a7f4;}
    .font-black{color: #494949;}
@@ -30,23 +32,24 @@
 
 /*小图标*/
 .icon-calculator{background: center url("../img/index/icon-calculator.png") no-repeat;background-size: contain;}
-.icon-clock{background: center url("../img/index/icon-calculator.png") no-repeat;background-size: contain;}
+.icon-clock{background: center url("../img/index/icon-clock.png") no-repeat;background-size: contain;}
 .icon-coupon{background: center url("../img/index/icon-coupon.png") no-repeat;background-size: contain;}
 .icon-folder{background: center url("../img/index/icon-folder.png") no-repeat;background-size: contain;}
 .icon-record{background: center url("../img/index/icon-record.png") no-repeat;background-size: contain;}
 .icon-benifit{background: center url("../img/index/icon-benifit.png") no-repeat;background-size: contain;}
 .icon-product{background: center url("../img/index/icon-product.png") no-repeat;background-size: contain;}
 .icon-user-1{background: center url("../img/index/icon-user-1.png") no-repeat;background-size: contain;}
+.icon-bao{background: center url("../img/common/icon-bao.png") no-repeat;background-size: contain;}
 /*其它图标参考font－awesome文档*/
 
 /*顶部状态栏*/
 header{
     width: 100%;
-    height: 40px;
+    height: 45px;
     line-height: 40px;
     background: #ffffff;
     padding-top: 5px;
-    font-size: 14px;
+    font-size: 18px;
 }
 /*底部导航*/
 footer{
@@ -98,18 +101,18 @@ footer li i{
 .default-top-block{
     font-size: 50px;
     font-weight: 100;
-    height: 100px;
+    height: 115px;
     /*background: #c0c0c0;*/
 }
 .default-top-block p{
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 5px;
-    line-height: 45px;
+    line-height: 56px;
     font-weight: 400;
 }
 /**********/
 .default-sec-block{
-    height: 66px;
+    height: 75px;
     padding-top: 5px;
 }
 .default-sec-block ul{
@@ -124,53 +127,104 @@ footer li i{
     list-style: none;
     display: block;
     float: left;
-    font-size: 12px;
+    font-size: 14px;
 }
 .default-sec-block li i{
     display: block;
-    width: 22px;
-    height: 22px;
-    margin: 5px auto;
+    width: 30px;
+    height: 25px;
+    margin: 7px auto;
 }
 /**************/
 .default-banner-block{
-    height: 84px;
+    height: 95px;
 }
 /*************/
 .default-recom-title{
-    height: 44px;
-    line-height: 44px;
-    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
     text-align: left;
     padding-left: 10px;
     font-weight: 300;
 }
 /*************/
 .default-product-block{
-    height: 110px;
+    height: 140px;
     padding-top: 10px;
     text-align: left;
 }
 .default-product-left,
-.default-product-right{
+.default-product-right,
+.default-product-mid{
     width: 49%;
-    height: 90px;
+    height: 120px;
     float: left;
     padding-left: 10px;
-
-
+}
+.default-product-left{
+    width: 49%;
+    padding-top: 10px;
+}
+.default-product-mid{
+    width: 38%;
+    /*background: rgba(119, 119, 119, 0.32);*/
+}
+.default-product-right{
+    width: 13%;
 }
 .default-product-block h1{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 .default-product-block h2{
-    font-size: 35px;
-    line-height: 46px;
+    font-size: 36px;
+    line-height: 55px;
     font-weight: 300;
 }
 .default-product-block h3{
     font-size: 15px;
     font-weight: 300;
     margin: 0;
+}
+.default-product-block ul{
+
+}
+.default-product-block ul li{
+    height: 20px;
+    /*background: rgba(76, 217, 100, 0.16);*/
+    line-height: 20px;
+    margin: 14px 0;
+}
+.default-product-block ul li i{
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     float: left;
+     margin: 0 5px;
+}
+.default-product-block ul li span{
+    float: left;
+}
+/**************/
+.default-safety{
+    display: block;
+    height: 40px;
+    width: 210px;
+    /*background: #4cd964;*/
+    margin: 10px auto;
+    font-size: 14px;
+    line-height: 20px;
+}
+.default-safety i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    display: block;
+    float: left;
+}
+.default-safety span{
+    display: inline;
+    float: left;
+    margin-left: 5px;
 }
