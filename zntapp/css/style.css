@@ -143,9 +143,34 @@ footer li i{
     font-size: 16px;
     text-align: left;
     padding-left: 10px;
-    font-weight: 200;
+    font-weight: 300;
 }
 /*************/
 .default-product-block{
+    height: 110px;
+    padding-top: 10px;
+    text-align: left;
+}
+.default-product-left,
+.default-product-right{
+    width: 49%;
+    height: 90px;
+    float: left;
+    padding-left: 10px;
 
+
+}
+.default-product-block h1{
+    font-size: 14px;
+    font-weight: 300;
+}
+.default-product-block h2{
+    font-size: 35px;
+    line-height: 46px;
+    font-weight: 300;
+}
+.default-product-block h3{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
 }
