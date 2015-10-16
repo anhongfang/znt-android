@@ -7,6 +7,7 @@
     <script src="../js/jquery-2.1.4.min.js"></script>
     <script src="../js/mui.min.js"></script>
     <link href="../css/mui.css" rel="stylesheet"/>
+    <link href="../fonts/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link href="../css/style.css" rel="stylesheet"/>
     <script type="text/javascript" charset="utf-8">
         mui.init();
@@ -14,5 +15,13 @@
 </head>
 <body>
 
+
+<!--初始化设置-->
+<script type="text/javascript" charset="utf-8">
+    mui.init();
+    mui('.mui-scroll-wrapper').scroll({
+        deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+    });
+</script>
 </body>
 </html>

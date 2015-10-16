@@ -14,9 +14,9 @@ html
 body
 {
     margin: 0;
-    background: #f6f6f6;
-    position: relative;
+    background: #ffffff;
     text-align: center;
+    font-weight: 200;
 }
 
 article,
@@ -287,8 +287,7 @@ body
     font-size: 17px;
     line-height: 21px;
 
-    color: #000;
-    background-color: #efeff4;
+    color: #494949;
 
     -webkit-overflow-scrolling: touch;
 }

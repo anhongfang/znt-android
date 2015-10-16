@@ -1,19 +1,20 @@
 /*=======自定义公共类========*/
-/*======颜色参数
-   app-blue:#12a7f4;
-   font-black:#494949;
-   font-gray:#ababab;
-   font-orange:#f77000;
-   font-orange-lighter:#f5bb70;
-   font-red:#dd524d;
-======*/
+/*======颜色参数======*/
+   .bg-gray{background: #f6f6f6}
+   .app-blue{color: #12a7f4;}
+   .font-black{color: #494949;}
+   .font-gray{color: #ababab;}
+   .font-orange{color: #f77000;}
+   .font-orange-lighter{color: #f5bb70;}
+   .font-red{color: #dd524d;}
+
 
 /*边框*/
-.border-a{border: solid 1px #d6d6d6;}
-.border-t{border-top: solid 1px #d6d6d6;}
-.border-b{border-bottom: solid 1px #d6d6d6;}
-.border-l{border-left: solid 1px #d6d6d6;}
-.border-r{border-right: solid 1px #d6d6d6;}
+.border-a{border: solid 1px #dddddd;}
+.border-t{border-top: solid 1px #dddddd;}
+.border-b{border-bottom: solid 1px #dddddd;}
+.border-l{border-left: solid 1px #dddddd;}
+.border-r{border-right: solid 1px #dddddd;}
 
 
 /*======图标类=====*/
@@ -27,6 +28,16 @@
 .icon-user{background: center url("../img/common/footer-user.png") no-repeat;background-size: contain;}
 .icon-user-b{background: center url("../img/common/footer-user-b.png") no-repeat;background-size: contain;}
 
+/*小图标*/
+.icon-calculator{background: center url("../img/index/icon-calculator.png") no-repeat;background-size: contain;}
+.icon-clock{background: center url("../img/index/icon-calculator.png") no-repeat;background-size: contain;}
+.icon-coupon{background: center url("../img/index/icon-coupon.png") no-repeat;background-size: contain;}
+.icon-folder{background: center url("../img/index/icon-folder.png") no-repeat;background-size: contain;}
+.icon-record{background: center url("../img/index/icon-record.png") no-repeat;background-size: contain;}
+.icon-benifit{background: center url("../img/index/icon-benifit.png") no-repeat;background-size: contain;}
+.icon-product{background: center url("../img/index/icon-product.png") no-repeat;background-size: contain;}
+.icon-user-1{background: center url("../img/index/icon-user-1.png") no-repeat;background-size: contain;}
+/*其它图标参考font－awesome文档*/
 
 /*顶部状态栏*/
 header{
@@ -34,6 +45,8 @@ header{
     height: 40px;
     line-height: 40px;
     background: #ffffff;
+    padding-top: 5px;
+    font-size: 14px;
 }
 /*底部导航*/
 footer{
@@ -56,7 +69,7 @@ footer li{
     list-style: none;
     display: block;
     float: left;
-    font-size: 12px;
+    font-size: 10px;
 }
 footer li i{
     display: block;
@@ -64,6 +77,75 @@ footer li i{
     height: 22px;
     margin: 5px auto;
 }
-footer li .footerbar-btn{
+
+/*=======其它公共类========*/
+.wrap{
+    top: 40px;
+    bottom: 50px;
+
+}
+.icon-block{display: block;}
+
+
+
+/*=====首页=====*/
+.default-user{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    float: left;
+}
+.default-top-block{
+    font-size: 50px;
+    font-weight: 100;
+    height: 100px;
+    /*background: #c0c0c0;*/
+}
+.default-top-block p{
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 45px;
+    font-weight: 400;
+}
+/**********/
+.default-sec-block{
+    height: 66px;
+    padding-top: 5px;
+}
+.default-sec-block ul{
+    padding: 0;
+    margin: 0;
+}
+.default-sec-block a{
+    color:#808080;
+}
+.default-sec-block li{
+    width: 25%;
+    list-style: none;
+    display: block;
+    float: left;
+    font-size: 12px;
+}
+.default-sec-block li i{
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 5px auto;
+}
+/**************/
+.default-banner-block{
+    height: 84px;
+}
+/*************/
+.default-recom-title{
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 200;
+}
+/*************/
+.default-product-block{
 
 }

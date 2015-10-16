@@ -1,10 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>智能投APP</title>
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.css" rel="stylesheet"/>
+    <link href="../fonts/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
 </head>
 <body>
-
+    <!--顶部导航-->
+    <header>
+        <a href="javascript:;" class="icon-block icon-user-1 default-user"></a>
+        <span class="app-blue" style="float: right;line-height: 30px;margin-right: 10px;">帮助</span>
+        <i class="fa fa-question-circle app-blue" style="float: right;line-height: 30px;font-size: 16px;margin-right:3px;"></i>
+    </header>
+    <!--中间内容-->
+    <div class="mui-scroll-wrapper wrap">
+        <div class="mui-scroll">
+            <div class="default-top-block">
+                <p>今日最新收益（元）</p>
+                0.00
+            </div>
+            <!--选项列表-->
+            <div class="default-sec-block border-t border-b">
+                <ul>
+                    <a href="javascript:;">
+                        <li class="footerbar-btn">
+                            <i class="icon-product"></i>
+                            运行中产品
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li class="footerbar-btn">
+                            <i class="icon-coupon"></i>
+                            我的优惠
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li class="footerbar-btn">
+                            <i class="icon-record"></i>
+                            交易记录
+                        </li>
+                    </a>
+                    <a href="javascript:;">
+                        <li class="footerbar-btn">
+                            <i class="icon-benifit"></i>
+                            历史收益
+                        </li>
+                    </a>
+                </ul>
+            </div>
+            <!--banner-->
+            <div class="default-banner-block bg-gray border-b"></div>
+            <!--推荐标题-->
+            <div class="default-recom-title border-b">
+                今日精品推荐
+            </div>
+            <!--产品介绍-->
+            <div class="default-product-block">
+                <section class="default-product-left"></section>
+                <section class="default-product-right"></section>
+            </div>
+        </div>
+    </div>
+    <!--底部选项卡-->
+    <footer>
+        <ul>
+            <a href="javascript:;">
+                <li class="footerbar-btn app-blue">
+                    <i class="icon-default-b"></i>
+                    精品推荐
+                </li>
+            </a>
+            <a href="javascript:;">
+                <li class="footerbar-btn">
+                    <i class="icon-list"></i>
+                    产品列表
+                </li>
+            </a>
+            <a href="javascript:;">
+                <li class="footerbar-btn">
+                    <i class="icon-int"></i>
+                    智能配置
+                </li>
+            </a>
+            <a href="javascript:;">
+                <li class="footerbar-btn">
+                    <i class="icon-user"></i>
+                    我
+                </li>
+            </a>
+        </ul>
+    </footer>
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+        mui('.mui-scroll-wrapper').scroll({
+            deceleration: 0.0005 //flick 减速系数，系数越大，滚动速度越慢，滚动距离越小，默认值0.0006
+        });
+    </script>
 </body>
 </html>
